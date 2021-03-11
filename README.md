@@ -1,5 +1,5 @@
 # Reverse Dictionary
 
-How to run the tests
+To perform the tests, use the command
 
 pytest
