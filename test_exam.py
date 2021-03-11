@@ -1,11 +1,11 @@
 def reverse_dict(d):
     rd = dict()
-    for key, value_list in d.items():          
-        for value in set(value_list):           
-            if value in rd:             
-                rd[value].append(key)     
+    for k, v in d.items():          
+        for x in set(v):           
+            if x in rd:             
+                rd[x].append(k)     
             else:
-                rd[value] = [key] 
+                rd[x] = [k] 
     return rd
 
 def test_reverse_small_dict():
