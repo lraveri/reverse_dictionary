@@ -2,4 +2,4 @@
 
 To perform the tests, use the command:
 
-pytest
+*pytest*
