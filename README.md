@@ -1,1 +1,3 @@
-# reverse_dictionary
+# Reverse dictionary
+
+How to run the tests
